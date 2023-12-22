@@ -18,9 +18,7 @@ To use this project, follow these steps:
 
     Clone the repository:
 
-    bash
-
-git clone [repository URL]
+git clone https://github.com/msedki/Yolov8_count_class.git
 
 Install required dependencies (assuming you have Python and pip installed):
 
@@ -35,7 +33,7 @@ To run the region counter:
 
     css
 
-    python [script_name.py] --weights yolov8n.pt --view-img
+    python yolov8class.py --weights yolov8n.pt --view-img --class-id 2
 
 Command Line Arguments
 
