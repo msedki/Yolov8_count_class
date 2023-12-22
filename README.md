@@ -1,7 +1,8 @@
 # Yolov8_count_class
 
-Ultralytics YOLOv8 Region Counter for a specific class
-Description
+ Ultralytics YOLOv8 Region Counter for a specific class
+
+
 
 This repository contains an implementation of an enhanced object tracking system using Ultralytics YOLOv8. The project is focused on counting objects within defined regions in video feeds. It allows for real-time updating of regions and supports tracking multiple regions simultaneously.
 Features
@@ -12,7 +13,7 @@ Features
     Support for multiple counting regions with individual tracking.
     Adjustable parameters for detection and tracking.
 
-Installation
+# Installation
 
 To use this project, follow these steps:
 
@@ -24,18 +25,16 @@ Install required dependencies (assuming you have Python and pip installed):
 
     pip install -r requirements.txt
 
-Usage
+# Usage
 
-To run the region counter:
+ To run the region counter for a specific class exemple Number 2 :
 
     Set up your environment with the necessary dependencies.
     Execute the script with the desired parameters. For example:
 
-    css
-
     python yolov8class.py --weights yolov8n.pt --view-img --class-id 2
 
-Command Line Arguments
+# Command Line Arguments
 
     --weights: Path to the model weights file (default: 'yolov8n.pt').
     --view-img: Flag to display the output window.
@@ -44,7 +43,7 @@ Command Line Arguments
     --region-thickness: Region box thickness.
     --class-id: ID of the class to count.
 
-Contributing
+# Contributing
 
 Contributions to improve the project are welcome. Please follow these steps:
 
@@ -54,7 +53,7 @@ Contributions to improve the project are welcome. Please follow these steps:
     Push to the branch (git push origin feature/AmazingFeature).
     Open a pull request.
 
-Acknowledgements
+# Acknowledgements
 
     Ultralytics for YOLOv8.
     Contributors and maintainers of this project.
